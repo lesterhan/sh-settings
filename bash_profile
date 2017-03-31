@@ -22,6 +22,9 @@ export PS2="| > "
 # Dev alias
 alias rs='rails server'
 alias rc='rails console'
+alias gst='git status'
+alias gpr='git pull --rebase'
+alias gcm='git commit -m'
 
 alias ls='ls -GFh'
 alias lsa='ls -GFhla'
