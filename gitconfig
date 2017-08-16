@@ -1,0 +1,19 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+#	name = Lester Han
+#	email = lesterhan@Lesters-MBP.fios-router.home
+[user]
+	name = Lester Han
+	email = lester.han@gmail.com
+[core]
+	editor = vim
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+	br = branch
+	pr = pull --rebase
+    pom = pull origin master
+[push]
+	default = simple
